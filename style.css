@@ -1,0 +1,70 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3eK2Ac7xS5BnU7IYyDHOh57ZLvKp2TgVyQ&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-color: pink;
+}
+button {
+  display: inline-block;
+  background-color: #44cbdd;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 19px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #3e8e41;
+  color: #FFFFFF;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+}
+.popup {
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			text-align: center;
+			max-width: 80%;
+			max-height: 80%;
+			overflow-y: auto;
+		}
+		audio{
+  opacity: 50%;
+  width: 100px;
+  height: 25px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+
+		.overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			animation: siu 2s ease-in forwards;
+		}
+		@keyframes siu{
+		  0%{
+		    opacity:0 ;
+		  }
+		  100%{
+		    opacity: 1;
+		  }
+		}
+			
